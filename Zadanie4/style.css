@@ -1,0 +1,141 @@
+body {
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 60px 0px 30px 0px;
+}
+.header-image {
+  width: 350px;
+  height: 39px;
+}
+.content {
+  display: flex;
+  width: 45vw;
+  height: 70vh;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 30px;
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+h2 {
+  width: 90%;
+  align-self: flex-start;
+  padding-left: 8%;
+  font-size: 22px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.media-button {
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 50px;
+  border: 2px solid #413fb5;
+  border-radius: 5px;
+  margin: 10px 8% 10px 8%;
+}
+.social-image {
+  width: 35px;
+  height: 35px;
+}
+hr {
+  width: 29%;
+}
+.divider {
+  width: 90%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 5% 15px 5%;
+}
+form {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.small-left,
+.small-right {
+  font-size: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  width: 38%;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.small-right {
+  margin-left: 4%;
+}
+
+.big-input {
+  font-size: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  height: 40px;
+  width: 90%;
+  margin: 15px 8% 5px 8%;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  width: 100%;
+  padding: 20px 0 25px 8%;
+}
+a {
+  text-decoration-thickness: 3px;
+  text-decoration-color: #413fb5;
+  text-decoration-style: ;
+  color: black;
+}
+.a1 {
+  text-decoration: none;
+  border-bottom: 3px solid #413fb5;
+}
+button {
+  width: 82%;
+  height: 50px;
+  background-color: #413fb5;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 12px;
+  padding: 5px 0 0 9%;
+}
+
+.content-right {
+  width: 50%;
+  height: 100%;
+  background-image: url("gym.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
