@@ -98,7 +98,6 @@ label {
 a {
   text-decoration-thickness: 3px;
   text-decoration-color: #413fb5;
-  text-decoration-style: ;
   color: black;
 }
 .a1 {
@@ -114,7 +113,9 @@ button {
   border-radius: 10px;
   font-weight: 600;
 }
-button:hover {
+button,
+.media-button:hover,
+input[type="checkbox"] {
   cursor: pointer;
 }
 h5 {
