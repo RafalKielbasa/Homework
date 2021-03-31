@@ -114,6 +114,9 @@ button {
   border-radius: 10px;
   font-weight: 600;
 }
+button:hover {
+  cursor: pointer;
+}
 h5 {
   font-size: 12px;
   padding: 5px 0 0 0;
