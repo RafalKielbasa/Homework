@@ -16,19 +16,21 @@ body {
 }
 .content {
   display: flex;
-  width: 45vw;
-  height: 70vh;
+  width: 42vw;
+  height: 65vh;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-top: 30px;
+  box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
 }
 .content-left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 30px 0 30px;
   width: 50%;
   height: 100%;
+  box-sizing: border-box;
+  padding: 0 30px;
 }
 h2 {
   width: 90%;
@@ -61,7 +63,7 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 10px 0;
 }
 form {
   cursor: pointer;
@@ -112,6 +114,7 @@ button {
   font-size: 16px;
   border-radius: 10px;
   font-weight: 600;
+  border: 0;
 }
 button,
 .media-button:hover,
@@ -126,6 +129,9 @@ h5 {
   width: 100%;
   display: flex;
   justify-content: left;
+}
+input {
+  padding-left: 15px;
 }
 .content-right {
   width: 50%;
