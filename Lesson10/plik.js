@@ -213,7 +213,7 @@ const book = {
   pages: 800,
 };
 
-function bookLover({ firstName, books, tv }, { title, type, pages }) {
+function bookLover({ firstName, books, tv }, { title, pages }) {
   if (books == true)
     return `Cześć ${firstName}, polecam Ci przeczytać książke ${title}, ma tylko ${pages} stron`;
   else if (books == false && tv == true) return "Idź oglądać telawizję";
