@@ -83,6 +83,7 @@ h2 {
   display: inline;
   font-family: "Times New Roman", Times, serif;
   cursor: pointer;
+  transition: 1s;
 }
 div.art1:hover {
   transform: scale(1.1);
@@ -141,5 +142,9 @@ button {
   width: 120px;
   height: 40px;
   background-color: black;
+  border: 0px;
   color: white;
+}
+button:hover {
+  cursor: pointer;
 }
